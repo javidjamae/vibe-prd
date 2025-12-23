@@ -244,6 +244,25 @@ You should review and refine the generated content, especially:
 - Patterns that might be incomplete
 - Conventions that need clarification
 
+### Extending the System
+
+This template provides common patterns and workflows, but you can extend it for your specific needs:
+
+**Add Custom Patterns:**
+- Create new pattern files in `.ai/patterns/` for recurring tasks in your codebase
+- Follow the same structure as existing patterns (What to Find, How to Scan, etc.)
+- Reference them in PRDs just like the built-in patterns
+
+**Add System Guidelines:**
+- Extend `.ai/system/conventions.md` with additional rules specific to your project
+- Add more architecture details to `.ai/system/architecture-map.md` as your codebase grows
+- Document special tooling or processes in `.ai/system/stack.md`
+
+**Modify Workflows (Optional):**
+- The workflow prompts (`.ai/workflows/*.prompt.md`) are designed to be system-agnostic
+- They should work for most projects without modification
+- If you have specific workflow needs, you can customize them, but consider contributing improvements back to the template
+
 ---
 
 ## Day-to-day workflow

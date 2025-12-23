@@ -38,6 +38,14 @@ This is a **template repository** containing a structured set of prompts and pat
   workflows/       # Workflow prompts (create PRD, execute PRD, install)
 ```
 
+## Customization
+
+This template provides a solid foundation, but you can extend it:
+
+- **Add your own patterns**: Create new pattern files in `.ai/patterns/` for common tasks specific to your codebase
+- **Add system guidelines**: Extend `.ai/system/` files with additional conventions, rules, or architecture details
+- **Modify workflows** (optional): The workflow prompts are system-agnostic and should work for most projects, but you can customize them if needed
+
 ## Learn More
 
 See `.ai/README.md` for detailed documentation on how the system works.
